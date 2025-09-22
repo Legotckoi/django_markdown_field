@@ -1,7 +1,7 @@
 [project]
 name = "django-markdown-html-field"
-version = "0.1.3"
-description = "Django Markdown Field"
+version = "1.0.0"
+description = "Django Markdown to HTML Field"
 authors = [
     {name = "Evgenii Legotckoi",email = "evgenii.legotckoi@gmail.com"}
 ]
