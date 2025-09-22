@@ -17,8 +17,8 @@ class MarkdownWorker:
         'fenced_code',
         'nl2br',
         'toc',
-        'django_markdown_field.extensions.super_sub_script',
-        'django_markdown_field.extensions.video'
+        'django_markdown_html_field.extensions.super_sub_script',
+        'django_markdown_html_field.extensions.video'
     ]
 
     extension_configs = {

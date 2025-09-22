@@ -1,13 +1,13 @@
 [project]
-name = "django-markdown-field"
-version = "0.1.0"
+name = "django-markdown-html-field"
+version = "0.1.2"
 description = "Django Markdown Field"
 authors = [
     {name = "Evgenii Legotckoi",email = "evgenii.legotckoi@gmail.com"}
 ]
 license = {text = "MIT"}
 readme = "README.md"
-requires-python = ">=3.12"
+requires-python = ">=3.10"
 classifiers = [
     "Framework :: Django",
     "Programming Language :: Python :: 3",
@@ -28,4 +28,4 @@ build-backend = "setuptools.build_meta"
 
 
 [tool.setuptools.packages.find]
-where = ["django_markdown_field"]
+where = ["django_markdown_html_field"]

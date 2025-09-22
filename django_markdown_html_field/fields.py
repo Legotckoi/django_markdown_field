@@ -41,6 +41,6 @@ class MarkdownField(models.TextField):
 
     def __init__(self, html_field=None, markdown_worker=None, html_sanitizer=None, *args, **kwargs):
         self.html_field = html_field
-        self.markdown_worker = markdown_worker if markdown_worker else import_string(getattr(settings, 'MARKDOWN_FIELD_WORKER', 'django_markdown_field.worker.MarkdownWorker'))
-        self.html_sanitizer = html_sanitizer if html_sanitizer else import_string(getattr(settings, 'MARKDOWN_FIELD_SANITIZER' ,'django_markdown_field.sanitizer.HtmlSanitizer'))
+        self.markdown_worker = markdown_worker if markdown_worker else import_string(getattr(settings, 'MARKDOWN_FIELD_WORKER', 'django_markdown_html_field.worker.MarkdownWorker'))
+        self.html_sanitizer = html_sanitizer if html_sanitizer else import_string(getattr(settings, 'MARKDOWN_FIELD_SANITIZER' ,'django_markdown_html_field.sanitizer.HtmlSanitizer'))
         super().__init__(*args, **kwargs)
